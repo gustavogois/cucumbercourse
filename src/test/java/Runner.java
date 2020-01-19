@@ -4,7 +4,8 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/test/resources/features/alugar_filme.feature",
+        features = "src/test/resources/features/inserir_conta.feature",
+        tags = {"not @ignore"},
         snippets = CucumberOptions.SnippetType.CAMELCASE)
 public class Runner {
 }
