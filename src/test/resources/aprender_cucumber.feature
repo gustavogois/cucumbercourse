@@ -18,3 +18,6 @@ Cenario: Deve incrementar contador
   Quando eu incrementar em 3
   Entao o valor do contador será 18
 
+  Dado que o valor do contador é 30
+  Quando eu incrementar em 10
+  Entao o valor do contador será 40
